@@ -1,0 +1,33 @@
+Initializeing
+
+git init
+
+
+
+Staging Process:
+1) Adding     git add <file_name> or git add .
+2) Saving/Commiting   git commit -m "commit message"
+
+
+Git Server
+To put the staged files to Git Server
+git push <repo_url> <branch_name>    
+
+eg: git push origin master  --> but to use origin we must have first tell the system that origin is nothing but repo_url so we use
+git remote add origin <repo_url>
+
+In case it says origin is already initalized we can use any other name, it is just like a variable. 
+eg: git remote add shortcut1  <repo_url>   --> So i have initialzed my repo url to new variable called shortcut1
+so i can now give for pushing: git push shortcut1 <branch_name>
+
+
+
+How to add new branch
+
+1) git branch <new_branch_name>
+
+2) To see all the branches
+git branch
+
+3) To go to any branch we can use
+git checkout <branchname_we wish to be in or go to>
